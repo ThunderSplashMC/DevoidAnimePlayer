@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+    min-height: 100%;
+    min-width: 100%;
+    background: rgb(32, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+center {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#topart {
+    width: 100%;
+    max-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25, 25, 25)
+}
+
+#top_container {
+    min-width: 80vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.top_btn {
+    background-color: transparent;
+    margin: 0px;
+    border: 0px;
+    font-size: 24px;
+    color: rgb(154, 154, 154);
+}
+
+.top_btn:hover {
+    color: white;
+}
+
+.top_btn_with_text {
+    color: rgb(154, 154, 154);
+    height: 100%;
+    font-family: 'Lexend Deca';
+    font-size: 16px;
+    padding: 15px;
+}
+
+.top_btn_with_text:hover {
+    color: white;
+}
+
+
+#page_banner_main {
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    opacity: 0.7;
+}
+
+#page_banner_main:hover {
+    opacity: 1;
+}
+
+#search_bar {
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 15px;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(134, 134, 134);
+    font-family: 'Lexend Deca';
+    border: none;
+    border-radius: 0.5em 0em 0em 0.5em;
+}
+
+#search_bar:focus {
+    outline: none;
+}
+
+#search_bar_container {
+    display: flex;
+    border: solid rgb(32, 32, 32) 3px;
+    border-radius: 0.5em;
+    width: 330px;
+}
+
+#btn_search_embedded {
+    width: 20px;
+    height: 15px;
+    padding: 10px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0em 0.5em 0.5em 0em;
+}
+
+/* BOTTOM ART NOW */
+
+#bottomart {
+    width: 100%;
+    max-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25, 25, 25)
+}
+
+#bottom_container {
+    min-width: 80vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+/* MAIN BODY NOW */
+
+#mainbody {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    align-items: stretch;
+    justify-content: center;
+    flex: 1;
+    background-color: rgb(25,25,25);
+}
+
+#anime-search-body {
+    background-color: rgb(25,25,25);
+    width: 100%;
+    min-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 10px;
+    gap:10px;
+}
+
+#anime-page {
+    background-color: rgb(25,25,25);
+    width: 100%;
+    min-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 10px;
+    gap:10px;
+}
+
+#anime-body {
+    background-color: rgb(25,25,25);
+    width: 100%;
+    min-width: 800px;
+}
+
+.animeTile {
+    min-width: 175px;
+    min-height: 275px;
+    max-width: 175px;
+    max-height: 300px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Lexend Deca';
+    font-size: 14px;
+    background-color: rgb(18,18,18);
+}
+
+.animeTile:hover {
+    color: rgb(164, 200, 229);
+}
+
+.animeTitle {
+    text-align: center;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    max-height: 75px;
+    min-height: 75px;
+    max-width: 150px;
+    overflow: hidden;
+    font-size: 12px;
+    margin: 0px 0px 20px 0px;
+}
+
+.animePosterImg img {
+    width: 125px;
+    height: 175px;
+    margin: 20px 20px 0px 20px;
+}
+
+#user-details-body {
+    background-color: rgb(20, 20, 20);
+    width: 400px;
+    min-width: 400px;
+    display: flex;
+}
+
+#user-details-panel {
+    margin: 10px;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#user-acc-num {
+    color: rgb(154, 154, 154);
+    font-family: 'Lexend Deca';
+    margin: 10px;
+}
+
+#user-details-tool-panel {
+    background-color: rgb(25, 25, 25);
+    margin: 10px;
+    flex: 1;
+}
+
+.animePlayer {
+    overflow: hidden;
+    border: 0px;
+}
+
+#anime-player-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.anime-player-title {
+    color: white;
+    font-size: 24px;
+    font-family: 'Lexend Deca';
+    width: 100%;
+    margin: 20px;
+}
+
+#anime-episodes-container {
+    width: 90%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.anime-episode-button {
+    min-height: 30px;
+    min-width: 50px;
+    border: 2px solid rgb(3, 58, 83);
+    border-radius: 0.5em;
+    background-color: rgb(4, 76, 109);
+    color: white;
+    font-family: 'Lexend Deca';
+}
+
+.anime-episode-button-active {
+    min-height: 30px;
+    min-width: 50px;
+    border: 2px solid rgb(44, 119, 14);
+    border-radius: 0.5em;
+    background-color: rgb(34, 109, 4);
+    color: white;
+    font-family: 'Lexend Deca';
+}
+
+.anime-episode-button:hover {
+    background-color: rgb(14, 86, 119);
+}
